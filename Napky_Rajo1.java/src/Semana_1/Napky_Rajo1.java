@@ -1,4 +1,4 @@
-package Napky_Rajo1;
+package Semana_1;
 
 
 import java.util.Scanner;
