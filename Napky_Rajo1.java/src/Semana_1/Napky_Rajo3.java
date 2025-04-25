@@ -12,10 +12,10 @@ public class Napky_Rajo3 {
     public static void main(String[]args){
     
         double CC6 = 0.30, CC10 = 0.25, CC2 = 0.80;
-        double CT6 = 30, CT10 = 25, CT2 = 80;
+        double CT6 = 60, CT10 = 100, CT2 = 20;
         double TISV, ISV, PROM, CTF;
         
-        PROM = (CC6*CT6)+(CC10*CT10)+(CC2*CT2)/180;
+        PROM = ((CC6*CT6)+(CC10*CT10)+(CC2*CT2))/180;
         CTF = (CC6*CT6)+(CC10*CT10)+(CC2*CT2);
         ISV = (CTF * 0.16);
                 TISV = (CTF + ISV);
