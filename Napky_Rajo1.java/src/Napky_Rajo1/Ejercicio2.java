@@ -9,5 +9,8 @@ package Napky_Rajo1;
  * @author saidn
  */
 public class Ejercicio2 {
-    
+    public static void main(String[] args) {
+        
+        int
+    }
 }

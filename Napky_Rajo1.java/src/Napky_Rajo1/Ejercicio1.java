@@ -16,19 +16,26 @@ import java.util.Scanner;
 public class Ejercicio1 {
     
     public static void main(String[]args){
-int HTM = 80;
-        int TPH = 300;
+double HTM ;
+        double TPH ;
         double SS;
-        SS = 6000;
+      String NdE;
       
-        System.out.println("****Boleta de Pago****");
+   
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nombre del Empleado");
-        String inputString = scanner.nextLine();
-        System.out.println("Hora de Trabajo Mensual:" + HTM);
-        System.out.println("Tarifa por Hora:"+ TPH);
-        System.out.println("Salario del Empleado Semanal:" + SS);
-      
+        NdE = scanner.next();
+        System.out.println("Hora de Trabajo Mensual: ");
+        HTM = scanner.nextDouble();
+        System.out.println("Tarifa por Hora: Lps ");
+        TPH = scanner.nextDouble();
+        SS = (HTM/4)*TPH;
+                   System.out.println("****Boleta de Pago****");
+            System.out.println("Nombre del Empleado" + NdE);
+              System.out.println("Hora de Trabajo Mensual: " + HTM );
+                    System.out.println("Tarifa por Hora: " + TPH );
+        System.out.println("Salario del Empleado Semanal: Lps " + SS );
+
     }
 
 }
