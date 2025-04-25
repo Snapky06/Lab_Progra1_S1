@@ -13,7 +13,7 @@ import java.util.Scanner;
  * @author saidn
  */
 
-public class Ejercicio1 {
+public class Napky_Rajo1 {
     
     public static void main(String[]args){
 double HTM ;
@@ -30,8 +30,9 @@ double HTM ;
         System.out.println("Tarifa por Hora: Lps ");
         TPH = scanner.nextDouble();
         SS = (HTM/4)*TPH;
+        
                    System.out.println("****Boleta de Pago****");
-            System.out.println("Nombre del Empleado" + NdE);
+            System.out.println("Nombre del Empleado " + NdE);
               System.out.println("Hora de Trabajo Mensual: " + HTM );
                     System.out.println("Tarifa por Hora: " + TPH );
         System.out.println("Salario del Empleado Semanal: Lps " + SS );
