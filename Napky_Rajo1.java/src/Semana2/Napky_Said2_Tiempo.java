@@ -16,19 +16,19 @@ public class Napky_Said2_Tiempo {
         Scanner leer = new Scanner(System.in);
         
         System.out.print("Ingresa Un Numero De Segundos : ");
-        double segundos = leer.nextDouble();
+        int segundos = leer.nextInt();
         
         if (segundos <= 0){
             System.out.println("Se Produjo Un Error, Segundos Invalidos");
         }
         
         if(segundos > 0){
-        double horas = segundos / 3600;
-        double demas = segundos % 3600;
-        double minutos = demas / 60;
-        double final_segundo = demas % 60;
+        int horas = segundos / 3600;
+        int demas = segundos % 3600;
+        int  minutos = demas / 60;
+        int final_segundo = demas % 60;
         
-        String resultado = "Horas :" + horas + "Minutos :" + minutos +"Segundos" + final_segundo;
+        String resultado = " Horas :" + horas + " Minutos :" + minutos +" Segundos" + final_segundo;
         
             System.out.println(resultado);
         }
