@@ -14,7 +14,7 @@ public class Napky_Said2_Tiempo {
     public static void main (String[]args){
     
         Scanner leer = new Scanner(System.in);
-        
+        System.out.println("Bienvenido A La Calculadora De Segundos");
         System.out.print("Ingresa Un Numero De Segundos : ");
         int segundos = leer.nextInt();
         
@@ -31,6 +31,7 @@ public class Napky_Said2_Tiempo {
         String resultado = " Horas :" + horas + " Minutos :" + minutos +" Segundos" + final_segundo;
         
             System.out.println(resultado);
+            System.out.println("---FINALIZADO---");
         }
         
     }

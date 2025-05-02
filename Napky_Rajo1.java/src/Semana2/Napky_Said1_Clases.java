@@ -17,7 +17,7 @@ public class Napky_Said1_Clases {
 
         Scanner leer = new Scanner(System.in);
 
-           System.out.println("Bienvenido A la Institucion De Ingles");
+           System.out.println("---Bienvenido A la Institucion De Ingles---");
            System.out.println("Ingrese La Fecha (DIA/DD/MM): ");
 
  String fecha = leer.nextLine();
@@ -128,6 +128,7 @@ if(dia < 1 && dia > 31 && mes < 1 && mes > 12){
         }
                 }
     
+        System.out.println("---Tenga Un Buen Dia---");
 }
     }
 
