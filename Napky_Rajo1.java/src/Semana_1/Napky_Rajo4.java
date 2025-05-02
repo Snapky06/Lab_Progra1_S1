@@ -92,7 +92,7 @@ public class Napky_Rajo4 {
                                       respuestaj = (valora*valora + 2*valora*valorb + valorb*valorb / 1/valorx*valorx + 2);
                                       System.out.println("Ejercicio K: " + respuestaj );  
                                       
-                                      System.out.println(Finalizado);
+                                      System.out.println("Finalizado");
                                       
                                       
                                      
