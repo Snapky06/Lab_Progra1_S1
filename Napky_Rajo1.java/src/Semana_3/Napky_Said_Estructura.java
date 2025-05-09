@@ -14,15 +14,16 @@ public class Napky_Said_Estructura {
 
     public static void main(String[] args) {
 
+        //Variables
         int cantidad = 0, largo = 0, numero = 0, sumaDivisores = 0, divisor_primo = 0;
-        int cuentaDivisores = 0,codigo=0,voto_total=0;
-        
-        double porcentaje_ganador = 0.0;
+        int codigo=0,voto_total=0;
         String palabra = "", invertida = "", palabra2 = "",palabramax="";
         boolean esPerfecto = false, esPrimo = false;
        int cantidad_azul = 0, cantidad_amarillo = 0, cantidad_rojo = 0, cantidad_negro = 0, cantidad_nulo = 0;
-        int opcion1=0, opcion2=0 , opcion3=0, opcion4=0,palabra4=0,palabracompara=0;
+        int opcion1=0, opcion2=0 , opcion3=0, opcion4=0,palabra4=0;
         
+        
+        //Repeticion
         do {
                 System.out.println("1- Palabra Alreves");
                 System.out.println("2-Numero Perfecto");
@@ -35,6 +36,7 @@ public class Napky_Said_Estructura {
         
         codigo = leer.nextInt();
             switch (codigo) {
+                //PRIMER CODIGO
             case 1:
                 opcion1++;
                 System.out.println("Ingrese La Cantidad De Palabras");
@@ -71,6 +73,7 @@ public class Napky_Said_Estructura {
                 break;
 
             case 2:
+                //SEGUNDO CODIGO
                 opcion2++;
                 System.out.println("Ingrese Un Numero : ");
 
@@ -91,6 +94,7 @@ public class Napky_Said_Estructura {
                 break;
 
             case 3:
+                //TERCER CODIGO
 opcion3++;
                 int Numero_Random = (int) (Math.random() * 100) + 1;
                 esPrimo = true;
@@ -113,6 +117,7 @@ opcion3++;
                 break;
 
             case 4:
+                //CUARTO CODIGO
                 opcion4++;
                 System.out.println("Cuantos Votantes Hay En El Pais : ");
                 int cantidad_votantes = leer.nextInt();
@@ -151,7 +156,7 @@ opcion3++;
                     }
                     }
                 
-                    
+                    //Calculos
                     voto_total = cantidad_azul + cantidad_rojo + cantidad_negro + cantidad_amarillo ;
                     
                     if(voto_total/cantidad_votantes >= 0.60){
@@ -174,8 +179,10 @@ opcion3++;
                     }
                 
         }
+            //Final del do
         }while(codigo!=5);
         
+        //IMPRESION DE ENTRADAS
         System.out.println("Entro " + opcion1 + " A la Primera Opcion");
         System.out.println("Entro " + opcion2 + " A la Segunda Opcion");
         System.out.println("Entro " + opcion3 + " A la Tercera Opcion");
